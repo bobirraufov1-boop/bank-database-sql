@@ -28,3 +28,15 @@ Designed and implemented a banking database system in SQL Server consisting of 3
 - High-risk fraud transaction detection
 - Branch-level loan exposure analysis
 - Suspicious transaction pattern detection
+
+## Setup & Usage:
+
+## Setup
+- Run `schema.sql` in SQL Server to create all 30 tables.
+- Ensure SQL Server is installed and running.
+
+## Usage
+- Example query: Retrieve all accounts for a customer  
+  ```sql
+  SELECT * FROM Accounts WHERE CustomerID = 123;
+

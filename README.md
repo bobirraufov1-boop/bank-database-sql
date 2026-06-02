@@ -40,3 +40,5 @@ Designed and implemented a banking database system in SQL Server consisting of 3
   ```sql
   SELECT * FROM Accounts WHERE CustomerID = 123;
 
+## Database Schema Diagram
+![ERD](BankProject Diagram.png)
